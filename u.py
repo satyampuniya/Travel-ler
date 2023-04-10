@@ -79,19 +79,6 @@ with st.container():
     st.markdown(form, unsafe_allow_html = True)
     
 
-st.button("Hola")
-
-if st.button('Submit'):
-    with st.spinner('Submitting...'):
-        rain(emojis=['🎉', '🎊', '🎁'], intensity=50, frequency=0.1, speed=0.5)
-        # add your code to submit the form and perform other actions here
-        st.success('Form submitted successfully!')
-
-
-
-
-
-
 # In[ ]:
 
 
