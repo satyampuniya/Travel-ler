@@ -7,7 +7,7 @@
 import requests
 from streamlit_lottie import st_lottie
 import streamlit as st
-from streamlit_extras.colored_header import colored_header
+#from streamlit_extras.colored_header import colored_header
 
 st.set_page_config(page_title = "Travel-ler" , page_icon = ":minibus:", layout = "wide")
 
@@ -24,9 +24,6 @@ def local_css(file_name):
 
 
 local_css("styles.css")
-
-
-
 
 
 
