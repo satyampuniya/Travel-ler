@@ -26,14 +26,10 @@ def local_css(file_name):
 local_css("styles.css")
 
 
-
 #ASSET INVENTORY
 lottie_url = get_lottie("https://assets9.lottiefiles.com/packages/lf20_bhebjzpu.json")
 
 #HEADER SECTION
-
-
-
 
 with st.container():
     lc, rc = st.columns([3,2])
